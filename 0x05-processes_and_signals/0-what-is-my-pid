@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# display pid self
+# display pid self.
+
 pid = $$
 echo "pid"

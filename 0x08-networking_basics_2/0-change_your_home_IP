@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configure the ubuntu server
+#  - local host resolve to 127.0.0.2
+#  - facebook.com resolves to 0.0.0.0
+sudo bash -c 'cat > /etc/hosts <<EOF
+127.0.0.2	localhost
+0.0.0.0		facebook.com
+EOF'
